@@ -36,9 +36,7 @@ public class LoginPage extends ProjectSpecificMethods{
 	}	
 	
 	public HomePage clickLogin() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		WebElement element = locateElement("class","decorativeSubmit");
-		
 		driver.executeScript("arguments[0].click();", element);
 		return new HomePage(driver, node);		
 	}
