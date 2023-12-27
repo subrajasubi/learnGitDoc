@@ -16,7 +16,7 @@ public class LoginPage extends ProjectSpecificMethods{
 	
 	public LoginPage(RemoteWebDriver driver, ExtentTest node){
 		this.driver = driver;
-		this.node = node;
+		
 			}
 	 
 	
