@@ -23,7 +23,7 @@ public class LoginPage extends ProjectSpecificMethods{
 	
 	public LoginPage enterUserName(String data) {	
 		zoomOutUsingJS(150);
-		zoomInUsingJS(70);
+		
 		clearAndType(locateElement("id","username"), data);
 		return this;
 	}	
